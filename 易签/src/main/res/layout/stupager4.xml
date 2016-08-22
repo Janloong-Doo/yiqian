@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/bt_aboutsoft"
+        android:layout_width="match_parent"
+        android:background="@drawable/bt_bg"
+        android:text="关于软件"
+        android:layout_marginTop="10dp"
+
+        android:textColor="@color/textcolor"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/bt_zhuxiao"
+            android:layout_marginBottom="5dp"
+            android:padding="10dp"
+            android:text="注销"
+            android:textSize="20dp"
+            android:background="@drawable/etix_selector"
+            android:layout_width="match_parent"
+            android:textColor="@color/white"
+
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/exit_bt"
+            android:padding="10dp"
+            android:layout_marginBottom="10dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/etix_selector"
+            android:text="退出"
+            android:textColor="@color/white"
+            android:textSize="20dp"/>
+    </LinearLayout>
+</RelativeLayout>

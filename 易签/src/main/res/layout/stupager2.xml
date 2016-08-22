@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:weightSum="4">
+
+    <TextView
+        android:id="@+id/tv_sendwhisper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:background="@drawable/textbg"
+        android:hint="悄悄话窗口"
+        android:textColor="@color/textcolor"
+        android:textColorHint="@color/textbg">
+
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/ed_whisper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/edit_selector"
+            android:hint="请输入悄悄话："
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="@color/textcolor"
+            android:textColorHint="@color/textbg"
+            />
+
+        <Button
+            android:id="@+id/stupager2_sendsocket"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/btselector"
+            android:text="发送悄悄话"
+            android:textColor="@color/profile_bottom_text_color"/>
+    </LinearLayout>
+</LinearLayout>

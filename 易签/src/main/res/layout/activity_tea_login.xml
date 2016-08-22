@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg3"
+    tools:context=".activity.TeaOpenActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:src="@mipmap/ic_wifi"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/et_ap_name"
+            style="@style/editforcardpass"
+            android:textColorHint="@color/textbg"
+            android:layout_marginBottom="40dp"
+            android:hint="输入热点名称"/>
+
+        <EditText
+            android:id="@+id/et_ap_password"
+            style="@style/editforcardpass"
+            android:hint="输入热点密码"
+            android:textColorHint="@color/textbg"
+
+            android:inputType="textPassword"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/welcome_linear_ctrlbar"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/create_ap_normal"
+          android:layout_margin="5dp"
+            android:text="自定义创建"
+            style="@style/buttonbg"
+            />
+
+        <Button
+            android:id="@+id/create_ap_fast"
+          android:layout_margin="5dp"
+            android:text="快速创建"
+            style="@style/buttonbg"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

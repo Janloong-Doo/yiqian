@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/et_add_card"
+        style="@style/editforcardpass"
+        android:hint="添加学号"
+        android:textColorHint="@color/textbg"/>
+
+    <EditText
+        android:id="@+id/et_add_name"
+        style="@style/editforcardpass"
+        android:hint="添加姓名"
+        android:textColorHint="@color/textbg"/>
+
+    <EditText
+        android:id="@+id/et_add_pass"
+        style="@style/editforcardpass"
+        android:hint="添加密码"
+
+        android:inputType="textPassword"
+        android:textColorHint="@color/textbg"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+        <!--android:orientation="horizontal"-->
+        <Button
+            android:id="@+id/add_db_bt"
+            android:textColor="@color/profile_bottom_text_color"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btselector"
+            android:layout_weight="1"
+            android:text="添加"/>
+
+        <Button
+            android:id="@+id/delete_db_bt"
+            android:background="@drawable/btselector"
+            android:textColor="@color/profile_bottom_text_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="删除"/>
+
+        <Button
+            android:id="@+id/set_db_bt"
+            android:background="@drawable/btselector"
+            android:textColor="@color/profile_bottom_text_color"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="修改"/>
+
+        <Button
+            android:id="@+id/find_db_bt"
+            android:background="@drawable/btselector"
+            android:textColor="@color/profile_bottom_text_color"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="查找"/>
+    </LinearLayout>
+
+    <TextView
+
+        android:id="@+id/tv_display"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/textbg"
+        android:hint="信息展示框："
+        android:scrollbars="vertical"
+
+        android:textColor="@color/textcolor"
+        android:textColorHint="@color/textbg"
+        android:textSize="20sp"/>
+</LinearLayout>

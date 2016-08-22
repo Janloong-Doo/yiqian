@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+              android:background="@mipmap/bg3"
+    tools:context="com.du.easysignin.activity.TeaHomeActivity1">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="#4b9bc4"
+        android:gravity="center"
+        android:text="签到"
+        android:textColor="#fff"
+        android:textSize="22sp" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+
+        <!--android:background="@mipmap/bottom_tab_bg"-->
+    <RadioGroup
+        android:id="@+id/rg_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rad_bt_1"
+            style="@style/BottomTabStyle"
+            android:drawableTop="@drawable/bt_home_tab"
+            android:text="签到" />
+
+        <RadioButton
+            android:id="@+id/rad_bt_2"
+            style="@style/BottomTabStyle"
+            android:drawableTop="@drawable/btn_tab_news_selector"
+            android:text="签到查询" />
+
+        <RadioButton
+            android:id="@+id/rad_bt_3"
+            style="@style/BottomTabStyle"
+            android:drawableTop="@drawable/btn_tab_smart_selector"
+            android:text="信息管理" />
+
+
+        <RadioButton
+            android:id="@+id/rad_bt_4"
+            style="@style/BottomTabStyle"
+            android:drawableTop="@drawable/btn_tab_setting_selector"
+            android:text="设置" />
+    </RadioGroup>
+
+</LinearLayout>

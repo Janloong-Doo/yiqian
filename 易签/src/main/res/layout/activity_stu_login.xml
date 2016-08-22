@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg3"
+
+    tools:context=".activity.StuOpenActivity">
+
+    <LinearLayout
+        android:id="@+id/wifiap_ly_wifistatus"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/bt_bg"
+        >
+
+        <TextView
+            android:id="@+id/wifiap_tv_wifistatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="18sp">
+        </TextView>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/wifiap_lv_wifi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/wifiap_footer"
+        android:layout_below="@id/wifiap_ly_wifistatus"/>
+
+    <LinearLayout
+        android:id="@+id/wifiap_footer"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="horizontal"
+     >
+
+
+        <Button
+            android:id="@+id/wifi_btn_create"
+         android:layout_margin="5dp"
+            android:text="手动刷新"
+            style="@style/buttonbg"
+            />
+
+        <Button
+            android:id="@+id/wifi_btn_next"
+         android:layout_margin="5dp"
+            android:text="下一步"
+            style="@style/buttonbg"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

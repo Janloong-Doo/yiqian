@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:background="@mipmap/bg3"
+    tools:context="com.du.easysignin.activity.StuLoginActivity">
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:src="@mipmap/ic_log_white"/>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/et_stu_name"
+            style="@style/editforcardpass"
+            android:layout_marginBottom="40dp"
+            android:hint="请输入学号："
+
+            android:inputType="number"/>
+
+        <EditText
+
+            android:id="@+id/et_stu_password"
+            style="@style/editforcardpass"
+            android:hint="请输入密码："
+            android:inputType="textPassword"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/stu_btn_regist"
+          android:layout_margin="5dp"
+            android:text="注册帐号"
+            style="@style/buttonbg"
+            />
+
+        <Button
+            android:id="@+id/stu_btn_login"
+         android:layout_margin="5dp"
+            android:text="学生登录"
+            style="@style/buttonbg"
+            />
+    </LinearLayout>
+</RelativeLayout>
