@@ -45,12 +45,14 @@ public class TeaFragment1 extends BaseFragment {
         return tea;
     }
 
-    public TeaFragment1(Handler handler) {
-        this.handler = handler;
+    public TeaFragment1() {
+
         tea = this;
 
     }
-
+    public void setHandler(Handler handler) {
+        this.handler = handler;
+    }
     @Override
     public int getLayoutRes() {
         return R.layout.teapager1;
@@ -146,4 +148,6 @@ public class TeaFragment1 extends BaseFragment {
         list.clear();
         sd.exit();
     }
+
+
 }

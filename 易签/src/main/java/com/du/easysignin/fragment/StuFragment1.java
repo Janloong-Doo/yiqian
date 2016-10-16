@@ -1,6 +1,7 @@
 package com.du.easysignin.fragment;
 
 import android.graphics.Color;
+import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
 import android.view.View;
@@ -27,16 +28,16 @@ import java.util.ArrayList;
  */
 public class StuFragment1 extends BaseFragment implements View.OnClickListener {
     public Button stupager1_signin;
-    private Handler handler;
-    Handler mhandler;
+    private Handler mhandler;
     private SignInfo signInfo;
 
-    public StuFragment1(Handler handler) {
-        this.handler = handler;
-
+    public StuFragment1() {
 
     }
 
+    public void setMhandler(Handler handler){
+        mhandler=handler;
+    }
 
     @Override
     public int getLayoutRes() {
@@ -59,27 +60,29 @@ public class StuFragment1 extends BaseFragment implements View.OnClickListener {
 
                         if (stupager1_signin.getText().toString().equals("已签到")) {
 //                        showShortToast("本节课您已签到过!");
-                            Toast.makeText(getActivity(), "本节课您今日已签到过，请勿重复签到", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(getActivity(), "本节课您今日已签到过，请勿重复签到", Toast
+                                    .LENGTH_SHORT).show();
                         } else {
                             Toast.makeText(getActivity(), "签到成功", Toast.LENGTH_SHORT).show();
                             stupager1_signin.setText("已签到");
                             stupager1_signin.setTextColor(Color.RED);
-                        //     stupager1_signin.setOnClickListener(null);
+                            //     stupager1_signin.setOnClickListener(null);
                         }
                         break;
                     case AllConsts.STUSIGNIN_REQUEST_FALSE:
                         stupager1_signin.setText("已签到");
                         stupager1_signin.setTextColor(Color.RED);
-                        Toast.makeText(getActivity(), "本节课您今日已签到过，请勿重复签到", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getActivity(), "本节课您今日已签到过，请勿重复签到", Toast.LENGTH_SHORT)
+                                .show();
                         break;
                     case -1:
                         Toast.makeText(getActivity(), "未知错误", Toast.LENGTH_SHORT).show();
-                    break;
+                        break;
                 }
             }
         };
 
-       initSign();
+        initSign();
     }
 
     @Override
@@ -100,18 +103,18 @@ public class StuFragment1 extends BaseFragment implements View.OnClickListener {
 //                    SignInfo signInfo = new SignInfo();
 //                    signInfo.setCard_name(loginname);//初始化学号
                     signInfo.setSign_time(HelpUtils.getDate(HelpUtils.FORMATTIMESTR).toString());
-                   //日期的设置
+                    //日期的设置
 //                    System.out.println("stufg1__日期格式化:"+signInfo.getSign_time());
 
                     //转为json字符串
-                    Gson g=new Gson();
+                    Gson g = new Gson();
                     String signjson = g.toJson(signInfo, SignInfo.class);
 
 //                    String s = "哈哈 我来签到啦   么么哒……";
                     new SendDataThread(mhandler, WifiUtils.getServerIPAddress(), 12345, signjson,
                             AllConsts.STUSIGNIN_REQUEST).start();
 
-                }else{
+                } else {
                     Toast.makeText(getActivity(), "本节课您已签到过", Toast.LENGTH_SHORT).show();
 
                 }
@@ -123,8 +126,8 @@ public class StuFragment1 extends BaseFragment implements View.OnClickListener {
     /**
      * 初始化签到信息
      */
-    public void initSign(){
-        SharePreferenceUtils utils =new SharePreferenceUtils();
+    public void initSign() {
+        SharePreferenceUtils utils = new SharePreferenceUtils();
         String loginname = utils.getString(AllConsts.STULOGIN_INFO);
         //签到信息初始化
         signInfo = new SignInfo();

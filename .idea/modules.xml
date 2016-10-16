@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/myapplication/myapplication.iml" filepath="$PROJECT_DIR$/myapplication/myapplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PushSDK/PushSDK.iml" filepath="$PROJECT_DIR$/PushSDK/PushSDK.iml" />
+      <module fileurl="file://$PROJECT_DIR$/updateHelper/updateHelper.iml" filepath="$PROJECT_DIR$/updateHelper/updateHelper.iml" />
       <module fileurl="file://$PROJECT_DIR$/xutils/xutils.iml" filepath="$PROJECT_DIR$/xutils/xutils.iml" />
       <module fileurl="file://$PROJECT_DIR$/yiqian.iml" filepath="$PROJECT_DIR$/yiqian.iml" />
       <module fileurl="file://$PROJECT_DIR$/易签/易签.iml" filepath="$PROJECT_DIR$/易签/易签.iml" />

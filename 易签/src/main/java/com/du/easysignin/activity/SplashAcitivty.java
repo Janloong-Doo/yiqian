@@ -1,13 +1,13 @@
 package com.du.easysignin.activity;
 
-import android.app.Activity;
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 import com.du.easysignin.R;
 import com.du.easysignin.base.BaseAcitivity;
+import com.shelwee.update.UpdateHelper;
 
 
 /**
@@ -26,6 +26,21 @@ public class SplashAcitivty extends BaseAcitivity implements View.OnClickListene
         setContentView(R.layout.activity_splash_acitivty);
 
         initUI();
+        checkUpdate();
+    }
+
+    private void checkUpdate() {
+        String url = null;
+        if (url != null) {
+            UpdateHelper updateHelper = new UpdateHelper.Builder(this)
+                    .checkUrl(url)
+                    .isAutoInstall(false)
+                    .build();
+            updateHelper.check();
+        }else {
+            Toast.makeText(this,"服务器地址不存在",Toast.LENGTH_SHORT).show();
+        }
+
     }
 
     /**

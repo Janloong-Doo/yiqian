@@ -1,1 +1,2 @@
-include ':易签', ':xutils', ':myapplication'
+include ':易签', ':xutils', ':PushSDK'
+include ':updateHelper'

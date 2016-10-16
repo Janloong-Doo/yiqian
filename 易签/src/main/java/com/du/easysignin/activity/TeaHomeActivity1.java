@@ -114,7 +114,8 @@ public class TeaHomeActivity1 extends BaseAcitivity implements View.OnClickListe
         bt = new int[]{R.id.rad_bt_1, R.id.rad_bt_2, R.id.rad_bt_3, R.id.rad_bt_4};
         rg_group.check(bt[0]);
         pagers = new ArrayList<>();
-        teaFragment1 = new TeaFragment1(handler);
+        teaFragment1 = new TeaFragment1();
+        teaFragment1.setHandler(handler);
         teaFragment2 = new TeaFragment2();
         teaFragment3 = new TeaFragment3();
         teaFragment4 = new TeaFragment4();

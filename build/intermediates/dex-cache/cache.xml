@@ -2,74 +2,102 @@
 <items version="2" >
 
     <item
-        jar="G:\githublunwen\yiqian\myapplication\build\intermediates\exploded-aar\com.android.support\design\23.2.1\jars\classes.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="72961d8b453b46e277702f18de9d210bc019e36e">
-        <dex dex="G:\githublunwen\yiqian\myapplication\build\intermediates\pre-dexed\debug\com.android.support-design-23.2.1_ad9071064970a29e2122107573df310d18439256.jar" />
-    </item>
-    <item
-        jar="G:\githublunwen\yiqian\myapplication\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\jars\classes.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
-        <dex dex="G:\githublunwen\yiqian\myapplication\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.2.1_0d1b59618a617dc895ffd2bd972e5e2ac5b61373.jar" />
-    </item>
-    <item
-        jar="G:\githublunwen\yiqian\myapplication\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="92fb4311c6e20f8f7694d24b0b38d69c293f772b">
-        <dex dex="G:\githublunwen\yiqian\myapplication\build\intermediates\pre-dexed\debug\instant-run_632ec9eb1b0fb5a922e37fc1b54317c80b43ac37.jar" />
-    </item>
-    <item
-        jar="G:\githublunwen\yiqian\myapplication\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.1\jars\classes.jar"
-        jumboMode="true"
+        jar="H:\GItRepositories\yiqian\易签\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.1\jars\classes.jar"
+        jumboMode="false"
         revision="23.0.3"
         sha1="e4d0cbb0b999604b349062f0214a0a228a7fd151">
-        <dex dex="G:\githublunwen\yiqian\myapplication\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.2.1_f2ffe9ea1bf249f660b4606d74f5172d9d20c4eb.jar" />
+        <dex dex="H:\GItRepositories\yiqian\易签\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.2.1_da7da6b5161ec9c09748dcce1980e533c6bef7ec.jar" />
     </item>
     <item
-        jar="G:\githublunwen\yiqian\myapplication\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.2.1\jars\classes.jar"
-        jumboMode="true"
+        jar="H:\GItRepositories\yiqian\易签\build\intermediates\exploded-aar\yiqian\updateHelper\unspecified\jars\classes.jar"
+        jumboMode="false"
         revision="23.0.3"
-        sha1="e3885783ff8926ed9e2fdcd16816c2e1e73e7aee">
-        <dex dex="G:\githublunwen\yiqian\myapplication\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-23.2.1_35de2c1453808cc06c9c41422a1c70230f058e2e.jar" />
+        sha1="9448687f16c546b4608a74d8a3e6d93610266251">
+        <dex dex="H:\GItRepositories\yiqian\易签\build\intermediates\pre-dexed\debug\yiqian-updateHelper-unspecified_165f9e566909c0ae5cec3b7af87115416344a888.jar" />
     </item>
     <item
-        jar="G:\githublunwen\yiqian\myapplication\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.1\jars\classes.jar"
-        jumboMode="true"
+        jar="H:\GItRepositories\yiqian\易签\build\intermediates\exploded-aar\yiqian\PushSDK\unspecified\jars\libs\utdid4all-1.1.5_proguard.jar"
+        jumboMode="false"
         revision="23.0.3"
-        sha1="3469cb457f10f74c28cbc05f069b6c894f6cbdd0">
-        <dex dex="G:\githublunwen\yiqian\myapplication\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-23.2.1_7e153444d075a249c1f1bdcc8c9439a0dbe98a69.jar" />
+        sha1="de066e5f394fb976868a24b7f8c0ace6bb405ed9">
+        <dex dex="H:\GItRepositories\yiqian\易签\build\intermediates\pre-dexed\debug\utdid4all-1.1.5_proguard_d6827ebf061a30a5505ad635bd1a0287e722b36f.jar" />
     </item>
     <item
-        jar="G:\githublunwen\yiqian\myapplication\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.1\jars\classes.jar"
-        jumboMode="true"
+        jar="H:\GItRepositories\yiqian\易签\build\intermediates\exploded-aar\yiqian\PushSDK\unspecified\jars\libs\com.umeng.message_v3.0.1.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="dc194f4e7ea33988f036e39941b4c4b4d7bce184">
+        <dex dex="H:\GItRepositories\yiqian\易签\build\intermediates\pre-dexed\debug\com.umeng.message_v3.0.1_9566f28ee2dd21e3ac1999ecf69fb2d0637670ac.jar" />
+    </item>
+    <item
+        jar="H:\GItRepositories\yiqian\易签\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.1\jars\classes.jar"
+        jumboMode="false"
         revision="23.0.3"
         sha1="673d77a5bbddd766037f088e775df525c46407f0">
-        <dex dex="G:\githublunwen\yiqian\myapplication\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-23.2.1_a65629085cafe43ee649eb242ceabed666cbec47.jar" />
+        <dex dex="H:\GItRepositories\yiqian\易签\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-23.2.1_cb656b361696ca11ed09efc13c2fab4a91352efd.jar" />
     </item>
     <item
-        jar="G:\githublunwen\yiqian\myapplication\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\jars\libs\internal_impl-23.2.1.jar"
-        jumboMode="true"
+        jar="H:\GItRepositories\yiqian\易签\libs\picasso-2.5.0.jar"
+        jumboMode="false"
         revision="23.0.3"
-        sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
-        <dex dex="G:\githublunwen\yiqian\myapplication\build\intermediates\pre-dexed\debug\internal_impl-23.2.1_d97ebdc85f765fa38071ca6a3e22909704e3a544.jar" />
-    </item>
-    <item
-        jar="G:\githublunwen\yiqian\myapplication\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="d72ba3b68c12a8ca39f70d01a05315740a85d493">
-        <dex dex="G:\githublunwen\yiqian\myapplication\build\intermediates\pre-dexed\debug\instant-run-bootstrap_d062381d675d45d36177be56ea37a587d86c5996.jar" />
+        sha1="7ff0e000d1e27e356567f56c92af3b8ab912636f">
+        <dex dex="H:\GItRepositories\yiqian\易签\build\intermediates\pre-dexed\debug\picasso-2.5.0_8d0a88e23af84810896a27a5803fca5960036528.jar" />
     </item>
     <item
         jar="E:\android-bundle\adt-bundle-windows-x86_64-20140702\adt-bundle-windows-x86_64-20140702\sdk\extras\android\m2repository\com\android\support\support-annotations\23.2.1\support-annotations-23.2.1.jar"
-        jumboMode="true"
+        jumboMode="false"
         revision="23.0.3"
         sha1="ccb693bc0774fcb637246f7360de25b4af7df318">
-        <dex dex="G:\githublunwen\yiqian\myapplication\build\intermediates\pre-dexed\debug\support-annotations-23.2.1_0e73219d041659c67e1f3daaed4f7c574d2a6ff3.jar" />
+        <dex dex="H:\GItRepositories\yiqian\易签\build\intermediates\pre-dexed\debug\support-annotations-23.2.1_0e73219d041659c67e1f3daaed4f7c574d2a6ff3.jar" />
+    </item>
+    <item
+        jar="H:\GItRepositories\yiqian\易签\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
+        <dex dex="H:\GItRepositories\yiqian\易签\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.2.1_13f0ca5c4a5d69f345c762e9a38695d4e11583c5.jar" />
+    </item>
+    <item
+        jar="H:\GItRepositories\yiqian\易签\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="3469cb457f10f74c28cbc05f069b6c894f6cbdd0">
+        <dex dex="H:\GItRepositories\yiqian\易签\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-23.2.1_cb3a30586d0178bfb0ef722a1961c630fad413c6.jar" />
+    </item>
+    <item
+        jar="H:\GItRepositories\yiqian\易签\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\jars\libs\internal_impl-23.2.1.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
+        <dex dex="H:\GItRepositories\yiqian\易签\build\intermediates\pre-dexed\debug\internal_impl-23.2.1_6e14d41599dc6c028767040884b07da679fefa20.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.umeng.analytics\analytics\6.0.3\bad9f5cf2504747f6efded323edf71cf399e976a\analytics-6.0.3.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="bad9f5cf2504747f6efded323edf71cf399e976a">
+        <dex dex="H:\GItRepositories\yiqian\易签\build\intermediates\pre-dexed\debug\analytics-6.0.3_3ee62938950f23e9d36d8f596653f47c267bc4be.jar" />
+    </item>
+    <item
+        jar="H:\GItRepositories\yiqian\易签\build\intermediates\exploded-aar\org.xutils\xutils\3.3.34\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="3c2845f012e1e80181a123590959000ba237e807">
+        <dex dex="H:\GItRepositories\yiqian\易签\build\intermediates\pre-dexed\debug\org.xutils-xutils-3.3.34_48ead52223f679fb7b14f25e8edacdcd3f7e86b6.jar" />
+    </item>
+    <item
+        jar="H:\GItRepositories\yiqian\易签\build\intermediates\exploded-aar\yiqian\PushSDK\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="4a47bbc3acb1a47368de2275378bcbe8ab088b73">
+        <dex dex="H:\GItRepositories\yiqian\易签\build\intermediates\pre-dexed\debug\yiqian-PushSDK-unspecified_dff5635c582704d32aa2d1cfac80d2aeb5e55556.jar" />
+    </item>
+    <item
+        jar="D:\androidstudio\studio\gradle\m2repository\com\google\code\gson\gson\2.2.4\gson-2.2.4.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="a60a5e993c98c864010053cb901b7eab25306568">
+        <dex dex="H:\GItRepositories\yiqian\易签\build\intermediates\pre-dexed\debug\gson-2.2.4_502e977b29196802cc616ca7fcb834699dbc951e.jar" />
     </item>
 
 </items>

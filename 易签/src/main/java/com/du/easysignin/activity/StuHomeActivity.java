@@ -69,7 +69,8 @@ public class StuHomeActivity extends BaseAcitivity implements View.OnClickListen
         bt = new int[]{R.id.stu_home_rd1, R.id.stu_home_rd2, R.id.stu_home_rd3, R.id.stu_home_rd4};
         rg_group_stu.check(bt[0]);
         pagers = new ArrayList<>();
-        stuFragment1 = new StuFragment1(handler);
+        stuFragment1 = new StuFragment1();
+        stuFragment1.setMhandler(handler);
         stuFragment2 = new StuFragment2();
         stuFragment3 = new StuFragment3();
         stuFragment4 = new StuFragment4();

@@ -1,11 +1,9 @@
 package com.du.easysignin.base;
 
 import android.app.Application;
-import android.graphics.Bitmap;
 
-import java.lang.ref.SoftReference;
-import java.util.HashMap;
-import java.util.logging.Logger;
+import com.umeng.message.IUmengRegisterCallback;
+import com.umeng.message.PushAgent;
 
 /**
  * BaseApplication
@@ -44,5 +42,18 @@ public class BaseApplication extends Application {
 //        initEmoticons();
 //        initNotification();
 //        initFolder();
+        PushAgent.getInstance(this).onAppStart();
+        PushAgent pushAgent=PushAgent.getInstance(this);
+        pushAgent.register(new IUmengRegisterCallback() {
+            @Override
+            public void onSuccess(String s) {
+
+            }
+
+            @Override
+            public void onFailure(String s, String s1) {
+
+            }
+        });
     }
     }
